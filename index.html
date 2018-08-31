@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="libs/jqueryui/jquery-ui.css">
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/moment.js"></script>
+	<script src="libs/jqueryui/jquery-ui.js"></script>
+</head>
+<body>
+
+	<div class="main">
+		<div class="main_content_wrap">
+			<div class="header-block">
+				<div class="avatar">
+					<img src="img/face.png" alt="">
+				</div>
+				<div class="info">
+					<p class="name">Вероника Ростова</p>
+					<p class="about">Менеджер по продажам</p>
+					<div class="wrap">
+						<p class="work">Подберу для вас самые лучшие предложения.
+						Мои услуги абсолютно бесплатны.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="service">
+				<div class="graph-wrap">
+					<ul>
+						<li class="title_top">
+							<p class="column_title">Услуг</p>
+						</li>
+						<li>
+							<div class="graph-wrapper">
+								<ul>
+									<li class="progress progress_first">
+										<div id="progressbar"></div>
+										<i class="ProgressBar__text">​Ручное бронирование</i>​
+										<i class="current current-first">11</i>
+									</li>
+									
+								
+									<li class="progress progress_second">
+										<div id="progressbar_second"></div>
+										<i class="ProgressBar__text">​Пакетные туры</i>​
+										<i class="current current-second">3</i>
+									</li>
+								
+									<li class="progress progress_third">
+										<div id="progressbar_third"></div>
+										<i class="ProgressBar__text">​Отели</i>​
+										<i class="current current-third">1</i>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="title_bottom">
+							<div class="title_bottom_wrap">  
+    						<span class="word">Всего</span>  
+    						<span class="global_count">15</span> 
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+	
+			<div class="center">
+				<ul>
+					<li><span class="simple_text">Последние отзывы</span></li>
+					<li><a href="#" class="all_comments">Все отзывы</a></li>
+					<li class="comment_count"><a href="#">14</a></li>
+					<li class="like_count"><a href="#">131</a></li>
+				</ul>
+			</div>
+	
+			<div id="comment_window">
+	
+				<div class="comment">
+					<ul>
+						<li><span class="name">Самуил</span></li>
+						<li><span class="date">13 октября 2011</span></li>
+					</ul>
+					<div class="comment_wrap">
+						<p class="mycomment">Привет, Верунь! ниче себе ты крутая. фотка класс!!!!</p>
+					</div>
+				</div>
+	
+				<div class="comment">
+					<ul>
+						<li><span class="name">Лилия Семёнова</span></li>
+						<li><span class="date">14 октября 2011</span></li>
+					</ul>
+					<div class="comment_wrap">
+						<p class="mycomment">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент, это и 	есть всемирно известный центр огранки алмазов и торговли бриллиантами?</p>
+					</div>
+				</div>
+	
+				<div class="comment">
+					<ul>
+						<li><span class="name">Лилия Семёнова</span></li>
+						<li><span class="date">14 октября 2011</span></li>
+					</ul>
+					<div class="comment_wrap">
+						<p class="mycomment">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="footer">
+			<div class="messagearea">
+				<textarea name="message" id="messagetext" cols="30" rows="10"></textarea>
+			</div>
+			<input  type='button' class="send" id="btn" value='Написать консультатну'>
+		</div>
+
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
